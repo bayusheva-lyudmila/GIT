@@ -6,14 +6,17 @@ git init
 git commit --allow-empty -m "root commit"
 ```
 - Postman
+```
 git branch postman
-
+```
 - Jmeter
+```
 git branch jmeter
-
+```
 - CheckLists
+```
 git branch CheckLists
-
+```
 - Bag Reports
 git branch BagReports
 
