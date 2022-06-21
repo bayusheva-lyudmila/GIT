@@ -1,11 +1,12 @@
 # GIT
 GitHub. HW_2
 1. На локальном репозитории сделать ветки для:
-`git init
-`git commit --allow-empty -m "root commit"
-
+```
+git init
+git commit --allow-empty -m "root commit"
+```
 - Postman
-`git branch postman
+git branch postman
 
 - Jmeter
 git branch jmeter
