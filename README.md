@@ -17,23 +17,29 @@ git branch jmeter
 ```
 git branch CheckLists
 ```
-- Bag Reports
-git branch BagReports
-
+- Bug Reports
+```
+git branch BugReports
+```
 - SQL
+```
 git branch SQL
-
+```
 - Charles
+```
 git branch Charles
-
+```
 - Mobile testing
+```
 git branch MobileTesting
-
+```
 2. Запушить все ветки на внешний репозиторий
+```
 git remote add origin git@github.com:bayusheva-lyudmila/GIT.git
 git push -u origin --all 
-
+```
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+````
 git checkout BagReports
 vim br_structure.txt
 1. ID
@@ -47,20 +53,25 @@ vim br_structure.txt
 9. Expected result
 10. Actual result
 ESC :wq
+```
 
 4. Запушить структуру багрепорта на внешний репозиторий
+```
 git add .
 git commit -m "file create"
 git push
-
+```
 5. Вмержить ветку Bag Reports в Main
+```
 git checkout master
 git merge bagreports
-
+```
 6. Запушить main на внешний репозиторий.
+```
 git push
-
+```
 7. В ветке CheckLists набросать структуру чек листа.
+```
 git checkout checklists
 
 vim check_lists.txt
@@ -74,11 +85,15 @@ vim check_lists.txt
 5. Куплен товар
 6. Оплата товара
 ESC :wq
-
+```
 8. Запушить структуру на внешний репозиторий
+```
 git add .
 git commit -m "file create"
 git push
+```
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
+```
 git pull
+```
