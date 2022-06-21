@@ -38,9 +38,9 @@ git branch MobileTesting
 git remote add origin git@github.com:bayusheva-lyudmila/GIT.git
 git push -u origin --all 
 ```
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
 ````
-git checkout BagReports
+git checkout BugReports
 vim br_structure.txt
 1. ID
 2. Title
@@ -61,10 +61,10 @@ git add .
 git commit -m "file create"
 git push
 ```
-5. Вмержить ветку Bag Reports в Main
+5. Вмержить ветку Bug Reports в Main
 ```
 git checkout master
-git merge bagreports
+git merge bugreports
 ```
 6. Запушить main на внешний репозиторий.
 ```
